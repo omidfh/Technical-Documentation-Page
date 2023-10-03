@@ -1,0 +1,63 @@
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  margin: 20px;
+}
+.code {
+  background-color: #b7e1e4;
+  padding: 10px;
+  border-radius: 5px;
+}
+p {
+  padding: 10px;
+}
+ul[id="c"] > li {
+  list-style: inside;
+  list-style-type: circle;
+  padding-left: 15px;
+}
+main {
+  width: 68%;
+  float: right;
+}
+.nav {
+  width: 30%;
+  float: left;
+  position: fixed;
+  border-right: 2px solid rgb(118, 118, 118);
+  height: 100%;
+}
+
+@media (max-width: 800px) {
+  hr {
+    width: 150px;
+    float: left;
+  }
+  nav {
+    width: 150px;
+  }
+  nav header {
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 500px) {
+  hr {
+    width: 50px;
+    float: left;
+  }
+  nav {
+    width: 80px;
+  }
+}
+nav a {
+  color: rgb(48, 47, 47);
+  text-decoration: none;
+}
+header {
+  font-size: 25px;
+  margin: 5px;
+}
+nav header {
+  margin-bottom: 20px;
+}
